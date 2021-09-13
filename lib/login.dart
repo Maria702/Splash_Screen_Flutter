@@ -4,10 +4,8 @@ import 'package:flutter/material.dart';
 class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final TextEditingController emailController =
-        TextEditingController(text: "toobawaseem989@gmail.com");
-    final TextEditingController passwordController =
-        TextEditingController(text: "tooba989");
+    final TextEditingController emailController = TextEditingController();
+    final TextEditingController passwordController = TextEditingController();
 
     return Scaffold(
       appBar: AppBar(
